@@ -1,0 +1,165 @@
+   * {
+       margin: 0px;
+   }
+   
+   body {
+       background-color: rgba(128, 128, 128, 0.678);
+   }
+   
+   header,
+   section,
+   footer {
+       display: flex;
+       flex-direction: column;
+       width: 95%;
+       margin: 0px auto;
+       padding: 10px;
+   }
+   
+   header {
+       background-color: rgba(25, 23, 23, 0.5);
+       margin: 0px auto;
+       padding: 10px;
+   }
+   
+   header a {
+       color: white;
+       text-decoration: none;
+   }
+   
+   a:hover {
+       background-color: rgba(221, 207, 196, 0.366);
+       font-size: 1.1em;
+       border-radius: 4px;
+   }
+   
+   .encabezado ul {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 10px;
+       margin: 0px;
+       list-style-type: none;
+       margin-bottom: 10px;
+   }
+   
+   .buscador {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+   .buscador form {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 15px auto;
+   }
+   
+   .buscador input[type="button"] {
+       margin-left: 100px;
+       padding: 15px auto;
+   }
+   
+   input[type="text"] {
+       width: 250px;
+   }
+   /* .container {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 10px;
+   } */
+   
+   .container {
+       display: flex;
+       /* flex-wrap: wrap; */
+       justify-content: space-between;
+       align-items: center;
+       margin: 0px auto;
+   }
+   
+   .logo,
+   .descripcion,
+   .fachada {
+       flex-basis: 33.33%;
+   }
+   
+   .logo img {
+       width: 100%;
+       margin: 0 auto;
+       display: block;
+       text-align: center;
+   }
+   
+   .descripcion {
+       text-align: center;
+       align-items: center;
+       display: inline-block;
+       vertical-align: middle;
+   }
+   
+   .descripcion h3,
+   i,
+   blockquote {
+       margin-top: 35px;
+       padding: 15px;
+       vertical-align: center;
+   }
+   
+   .descripcion i {
+       font-size: 40px;
+   }
+   
+   .fachada img {
+       width: 100%;
+       margin: 0 auto;
+       display: block;
+       text-align: center;
+   }
+   
+   footer {
+       background-color: rgba(25, 23, 23, 0.5);
+       margin: 0px auto;
+       height: 40px;
+       justify-content: center;
+   }
+   
+   .pie {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       color: aliceblue;
+   }
+   
+   .phone {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .phone img {
+       width: 40px;
+       margin: 10px;
+   }
+   
+   .copy {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+   .redes {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       justify-content: space-around;
+   }
+   
+   .redes img {
+       width: 40px;
+   }
+   
+   #social2 {
+       width: 20%;
+   }
